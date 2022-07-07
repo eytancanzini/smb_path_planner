@@ -22,8 +22,8 @@ TebLocalPlannerROS:
   # Robot
   max_vel_x: 0.7
   max_vel_y: 0.0
-  max_vel_x_backwards: 0.7
-  max_vel_y_backwards: 0.7
+  max_vel_x_backwards: 0.1
+  max_vel_y_backwards: 0.0
   max_vel_theta: 0.7
   acc_lim_x: 4.0
   acc_lim_y: 0.0
@@ -42,7 +42,7 @@ TebLocalPlannerROS:
     vertices: [ [0.4, 0.4], [0.4, -0.4], [-0.4, -0.4], [-0.4, 0.4] ] # for type "polygon"
 
   # GoalTolerance
-  xy_goal_tolerance: 0.3
+  xy_goal_tolerance: 0.5
   yaw_goal_tolerance: 0.35
   free_goal_vel: false
   complete_global_plan: false

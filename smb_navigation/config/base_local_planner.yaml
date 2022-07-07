@@ -29,7 +29,7 @@ TebLocalPlannerROS:
   acc_lim_y: 0.0
   acc_lim_theta: 2.0
   wheelbase: 0.625
-  min_turning_radius: 0.2
+  min_turning_radius: 0.1
   footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
     type: "circular"
     radius: 0.75 # for type "circular"
